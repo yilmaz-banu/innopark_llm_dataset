@@ -7,14 +7,7 @@ header('Access-Control-Allow-Headers: Content-Type');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $input = json_decode(file_get_contents('php://input'), true);
     
-    // UI üzerinden giriş tetikleme (Login Butonu)
-    $action = $input['action'] ?? '';
-    if ($action === 'login') {
-        // Windows'da arka planda nlm login komutunu asenkron olarak tetikler
-        pclose(popen("start /B C:\\Users\\asus\\.local\\bin\\nlm.EXE login", "r"));
-        echo json_encode(['success' => true, 'message' => 'Giriş ekranı tetiklendi. Lütfen açılan Chrome penceresinde onay verin.']);
-        exit;
-    }
+
 
     $query = $input['query'] ?? '';
 

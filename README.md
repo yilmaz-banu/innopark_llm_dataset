@@ -4,7 +4,7 @@ InnoPark AI Assistant, InnoPark kurumsal bilgi kaynakları (yönetim standartlar
 
 ## 🌟 Özellikler
 
-- **Gelişmiş Chat Arayüzü**: Modern, duyarlı ve Tailwind CSS ile güçlendirilmiş "glassmorphism" tasarım..
+- **Gelişmiş Chat Arayüzü**: Modern, duyarlı ve Tailwind CSS ile güçlendirilmiş "glassmorphism" tasarım.
 - **NotebookLM Entegrasyonu**: Google'ın NotebookLM altyapısını kullanarak doğrudan InnoPark veri tabanından en doğru yanıtları verir.
 - **Sohbet Geçmişi**: LocalStorage kullanılarak sohbet geçmişiniz tarayıcınızda güvenle saklanır. Geçmiş sohbetlerinize kolayca dönebilirsiniz.
 - **Performanslı Önbellekleme (Cache)**: Sık sorulan sorular için dosya tabanlı bir önbellekleme sistemi kullanır, böylece API limitlerine takılmadan anında cevaplar alırsınız.
